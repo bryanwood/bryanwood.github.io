@@ -237,7 +237,7 @@ gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, indexBuffer);
 gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, indicies, gl.DYNAMIC_DRAW);
 
 function color(t) {
-  return [Math.sin(t) * 0.5 + 0.5, Math.sin(t * 2) * 0.5 + 0.5, Math.sin(t / 2) * 0.5 + 0.5, 1];
+  return [Math.sin(t) * 0.25 + 0.75, Math.sin(t * 2) * 0.25 + 0.75, Math.sin(t / 2) * 0.25 + 0.75, 1];
 }
 
 function draw(time) {
